@@ -1,0 +1,14 @@
+.PageAccountBalance {
+	position: relative;
+	top: -9rem;
+	height: 10rem;
+	width: 100%;
+}
+
+@media (max-width: 750px) {
+	.PageAccountBalance {
+		top: 0rem;
+		background-color: rgb(228, 220, 220);
+		min-height: 100vh;
+	}
+}

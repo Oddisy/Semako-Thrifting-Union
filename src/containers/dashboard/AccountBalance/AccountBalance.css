@@ -1,0 +1,53 @@
+/* Default styles for larger screens */
+.AccountBalanceContainer {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.AccountBalanceCardContainer {
+	display: flex;
+	margin: 0px auto;
+	width: 90%;
+}
+
+.mappedCard {
+	width: 100%;
+}
+
+.Account {
+	font-size: 2rem;
+	color: white;
+	margin: 0px auto;
+	margin-bottom: 2rem;
+	width: 90%;
+}
+
+/* Responsive adjustments for medium-sized screens */
+@media (max-width: 768px) {
+	.AccountBalanceCardContainer {
+		flex-direction: column; /* Stack cards vertically on medium-sized screens */
+		gap: 1rem;
+		width: 80%;
+	}
+
+	.Account {
+		font-size: 1.5rem;
+	}
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 480px) {
+	.AccountBalanceCardContainer {
+		width: 100%;
+	}
+
+	.mappedCard {
+		width: 100%;
+	}
+
+	.Account {
+		font-size: 1.2rem;
+	}
+}
