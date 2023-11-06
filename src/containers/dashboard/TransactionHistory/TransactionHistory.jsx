@@ -1,7 +1,7 @@
 import React from "react";
 import "./TransactionHistory.css";
 import {TransactionHistoryApi} from "../../../services/apiService";
-import Button from "../../../components/button/Button";
+import Button from "../../../components/button/button";
 function formatDate(dateTime) {
 	const date = new Date(dateTime);
 	const day = date.getDate();
@@ -22,7 +22,7 @@ function TransactionHistory() {
 									<div className="transaction-datas">
 										<div className="date-container">
 											<div className="date">
-												<div classNzame="month">
+												<div className="month">
 													{formatDate(data.dateTime).month}
 												</div>
 											</div>
