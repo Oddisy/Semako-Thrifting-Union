@@ -4,8 +4,8 @@ TransactionHistory;
 import {useEffect, useState} from "react";
 import "./Landingpage.css";
 import {AccountBalanceApi} from "../../services/apiService";
-import AccountBalance from "../../containers/dashboard/accountbalance/accountbalance";
-import TransactionHistory from "../../containers/dashboard/TransactionHistory/transactionhistory";
+import AccountBalance from "../../containers/dashboard/accountbalance/AccountBalance/";
+import TransactionHistory from "../../containers/dashboard/transactionhistory/TransactionHistory/";
 function Landingpage() {
 	// const [ApiData, setApiData] = useState([]);
 
