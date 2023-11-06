@@ -6,7 +6,7 @@ import {AccountBalanceApi} from "../../services/apiService";
 import AccountBalance from "../../containers/dashboard/accountbalance/accountbalance";
 import {ImportExportTwoTone} from "@mui/icons-material";
 import TransactionHistory from "../../containers/dashboard/TransactionHistory/transactionhistory";
-function Landingpage() {
+const Landingpage = () => {
 	// const [ApiData, setApiData] = useState([]);
 
 	// async function fetchProductApi() {
@@ -36,6 +36,6 @@ function Landingpage() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Landingpage;
