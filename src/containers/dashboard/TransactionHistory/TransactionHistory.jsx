@@ -1,5 +1,5 @@
 import React from "react";
-import "./TransactionHistory.css";
+import "./transactionhistory.css";
 import {TransactionHistoryApi} from "../../../services/apiService";
 import Button from "../../../components/button/button";
 function formatDate(dateTime) {
@@ -9,7 +9,7 @@ function formatDate(dateTime) {
 	return {day, month};
 }
 
-function TransactionHistory() {
+const TransactionHistory = () => {
 	return (
 		<div className="transaction-history-api">
 			<div className="transaction-history-card">
@@ -63,6 +63,6 @@ function TransactionHistory() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default TransactionHistory;
