@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../../components/header/header";
-import AccountBalance from "../../containers/dashboard/accountbalance/accountbalance";
 import {useEffect, useState} from "react";
 import "./Landingpage.css";
 import {AccountBalanceApi} from "../../services/apiService";
 import TransactionHistory from "../../containers/dashboard/TransactionHistory/transactionhistory";
+import AccountBalance from "../../containers/dashboard/accountbalance/accountbalance";
 function Landingpage() {
 	// const [ApiData, setApiData] = useState([]);
 

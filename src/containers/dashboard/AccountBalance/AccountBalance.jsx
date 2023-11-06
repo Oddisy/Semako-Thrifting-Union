@@ -1,9 +1,9 @@
 import React from "react";
-import "./AccountBalance.css";
+import "./accountbalance.css";
 import {AccountBalanceApi} from "../../../services/apiService";
 import Card from "../../../components/card/card";
 
-function AccountBalance() {
+const AccountBalance = () => {
 	return (
 		<div className="AccountBalanceContainer">
 			<p className="Account">Account</p>
@@ -22,6 +22,6 @@ function AccountBalance() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default AccountBalance;
