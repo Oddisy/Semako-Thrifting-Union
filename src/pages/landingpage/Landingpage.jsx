@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../../components/header/header";
-import AccountBalance from "../../containers/dashboard/AccountBalance/AccountBalance";
+import Accountbalance from "../../containers/dashboard/accountbalance/AccountBalance";
 import {useEffect, useState} from "react";
 import "./Landingpage.css";
 import {AccountBalanceApi} from "../../services/apiService";
-import TransactionHistory from "../../containers/dashboard/TransactionHistory/TransactionHistory";
+import Transactionhistory from "../../containers/dashboard/TransactionHistory/TransactionHistory";
 function Landingpage() {
 	// const [ApiData, setApiData] = useState([]);
 
@@ -28,10 +28,10 @@ function Landingpage() {
 				<Header />
 			</div>
 			<div className="PageAccountBalance">
-				<AccountBalance />
+				<Accountbalance />
 			</div>
 			<div className="page-account-balance">
-				<TransactionHistory />{" "}
+				<Transactionhistory />{" "}
 			</div>
 		</div>
 	);
