@@ -5,7 +5,7 @@ import {useEffect, useState} from "react";
 import "./Landingpage.css";
 import {AccountBalanceApi} from "../../services/apiService";
 import AccountBalance from "../../containers/dashboard/accountbalance/accountbalance";
-import TransactionHistory from "../../containers/dashboard/TransactionHistory/TransactionHistory";
+import TransactionHistory from "../../containers/dashboard/TransactionHistory/transactionhistory";
 function Landingpage() {
 	// const [ApiData, setApiData] = useState([]);
 
