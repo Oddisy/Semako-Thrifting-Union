@@ -2,6 +2,7 @@ import React from "react";
 import "./AccountBalance.css";
 import {AccountBalanceApi} from "../../../services/apiService";
 import Card from "../../../components/card/card";
+
 function AccountBalance() {
 	return (
 		<div className="AccountBalanceContainer">

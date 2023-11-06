@@ -13,12 +13,12 @@ function TransactionHistory() {
 	return (
 		<div className="transaction-history-api">
 			<div className="transaction-history-card">
-				{TransactionHistoryApi.map((item, index) => (
-					<div key={index}>
+				{TransactionHistoryApi.map((item) => (
+					<div key={item._Id}>
 						<span className="item-history">{item.History}</span>
 						<div className="history-container">
-							{item.transactions?.map((data, index) => (
-								<div className="mapped-transaction" key={index}>
+							{item.transactions?.map((data) => (
+								<div className="mapped-transaction" key={item._Id}>
 									<div className="transaction-datas">
 										<div className="date-container">
 											<div className="date">

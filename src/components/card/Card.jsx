@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.css";
+import "./card.css";
 
-function Card({accountName, Amount, currencyCode}) {
+const Card = ({accountName, Amount, currencyCode}) => {
 	return (
 		<div className="card-container">
 			<p className="avail-balance">Available Balance</p>
@@ -17,6 +17,6 @@ function Card({accountName, Amount, currencyCode}) {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Card;
