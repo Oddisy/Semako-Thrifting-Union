@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header/header";
 import {useEffect, useState} from "react";
-import "./landingpage.css";
+import "./Landingpage.css";
 import {AccountBalanceApi} from "../../services/apiService";
 import AccountBalance from "../../containers/dashboard/accountbalance/accountbalance";
 import {ImportExportTwoTone} from "@mui/icons-material";
