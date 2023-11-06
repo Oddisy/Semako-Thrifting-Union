@@ -3,7 +3,7 @@ import "./AccountBalance.css";
 import {AccountBalanceApi} from "../../../services/apiService";
 import Card from "../../../components/card/card";
 
-function Accountbalance() {
+function AccountBalance() {
 	return (
 		<div className="AccountBalanceContainer">
 			<p className="Account">Account</p>
@@ -24,4 +24,4 @@ function Accountbalance() {
 	);
 }
 
-export default Accountbalance;
+export default AccountBalance;

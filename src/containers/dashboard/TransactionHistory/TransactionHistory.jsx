@@ -9,7 +9,7 @@ function formatDate(dateTime) {
 	return {day, month};
 }
 
-function Transactionhistory() {
+function TransactionHistory() {
 	return (
 		<div className="transaction-history-api">
 			<div className="transaction-history-card">
@@ -65,4 +65,4 @@ function Transactionhistory() {
 	);
 }
 
-export default Transactionhistory;
+export default TransactionHistory;
