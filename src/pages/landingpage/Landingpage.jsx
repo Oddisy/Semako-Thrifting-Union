@@ -4,10 +4,8 @@ import {useEffect, useState} from "react";
 Accoun;
 import "./Landingpage.css";
 import {AccountBalanceApi} from "../../services/apiService";
-
-import {ImportExportTwoTone} from "@mui/icons-material";
-import TransactionHistory from "../../containers/dashboard/TransactionHistory/transactionhistory";
 import AccountBalance from "../../containers/dashboard/accountbalance/accountbalance";
+import TransactionHistory from "../../containers/dashboard/TransactionHistory/transactionhistory";
 const Landingpage = () => {
 	// const [ApiData, setApiData] = useState([]);
 
